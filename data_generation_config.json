@@ -1,0 +1,125 @@
+
+{
+    "formulas": {
+        "0": {
+            "name": "Formula_0",
+            "formula": "f_1 or f_2"
+        },
+        "1": {
+            "name": "Formula_1",
+            "formula": "( f_1 and f_2 ) or f_3"
+        },
+        "2": {
+            "name": "Formula_2",
+            "formula": "( f_2 xor f_4 ) and f_5"
+        },
+        "3": {
+            "name": "Formula_3",
+            "formula": "f_3 xor f_4"
+        },
+        "4": {
+            "name": "Formula_4",
+            "formula": "( f_1 and x_2 ) xor ( f_4 and f_5 )"
+        },
+        "5": {
+            "name": "Formula_5",
+            "formula": "f_1 and f_2"
+        },
+        "6": {
+            "name": "Formula_6",
+            "formula": "f_1 or ( f_1 xor f_2 )"
+        }
+    },
+    "hyperparams": {
+        "1": {
+            "subgroups_num": 4,
+            "feature_num": 15,
+            "feature_range": [0, 1, 2, 3],
+            "redundant_num": 2,
+            "correlated_num": 2,
+            "correlated_min_probability": 0.55,
+            "correlated_max_probability": 0.6,
+            "redundant_min_subgroup": 3,
+            "redundant_max_subgroup": 5,
+            "redundant_flip_probability": 0.25,
+            "sample_size": 20000,
+            "random_noise_mean": -0.05,
+            "random_noise_std": 0.02
+        },
+        "2": {
+            "subgroups_num": 4,
+            "feature_num": 15,
+            "feature_range": [0, 1, 2, 3],
+            "redundant_num": 2,
+            "correlated_num": 2,
+            "correlated_min_probability": 0.55,
+            "correlated_max_probability": 0.6,
+            "redundant_min_subgroup": 3,
+            "redundant_max_subgroup": 5,
+            "redundant_flip_probability": 0.25,
+            "sample_size": 20000,
+            "random_noise_mean": 0.08,
+            "random_noise_std": 0.02
+        },
+        "3": {
+            "subgroups_num": 4,
+            "feature_num": 18,
+            "feature_range": [0, 1, 2, 3, 4],
+            "redundant_num": 2,
+            "correlated_num": 2,
+            "correlated_min_probability": 0.55,
+            "correlated_max_probability": 0.6,
+            "redundant_min_subgroup": 3,
+            "redundant_max_subgroup": 5,
+            "redundant_flip_probability": 0.25,
+            "sample_size": 40000,
+            "random_noise_mean": -0.05,
+            "random_noise_std": 0.02
+        },
+        "4": {
+            "subgroups_num": 4,
+            "feature_num": 18,
+            "feature_range": [0, 1, 2, 3, 4],
+            "redundant_num": 2,
+            "correlated_num": 2,
+            "correlated_min_probability": 0.55,
+            "correlated_max_probability": 0.6,
+            "redundant_min_subgroup": 3,
+            "redundant_max_subgroup": 5,
+            "redundant_flip_probability": 0.25,
+            "sample_size": 40000,
+            "random_noise_mean": 0.08,
+            "random_noise_std": 0.02
+        },
+        "5": {
+            "subgroups_num": 4,
+            "feature_num": 20,
+            "feature_range": [0, 1, 2, 3],
+            "redundant_num": 2,
+            "correlated_num": 2,
+            "correlated_min_probability": 0.55,
+            "correlated_max_probability": 0.6,
+            "redundant_min_subgroup": 3,
+            "redundant_max_subgroup": 5,
+            "redundant_flip_probability": 0.25,
+            "sample_size": 60000,
+            "random_noise_mean": -0.05,
+            "random_noise_std": 0.02
+        },
+        "6": {
+            "subgroups_num": 4,
+            "feature_num": 20,
+            "feature_range": [0, 1, 2, 3],
+            "redundant_num": 2,
+            "correlated_num": 2,
+            "correlated_min_probability": 0.55,
+            "correlated_max_probability": 0.6,
+            "redundant_min_subgroup": 3,
+            "redundant_max_subgroup": 5,
+            "redundant_flip_probability": 0.25,
+            "sample_size": 60000,
+            "random_noise_mean": 0.08,
+            "random_noise_std": 0.02
+        }
+    }
+}
